@@ -39,6 +39,9 @@ By completing this lab, I practiced:
 ---
 
 ## Network Topology
+![Completed Packet Tracer topology showing the New York and Tokyo branch networks](completed-topology.png)
+
+*Completed Cisco Packet Tracer topology for Lab 01.*
 
 The completed topology represents two branch LANs connected through an Internet to create WAN segment.
 
