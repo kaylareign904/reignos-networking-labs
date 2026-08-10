@@ -108,3 +108,188 @@ I first viewed PC1's current network configuration:
 
 ```text
 ipconfig
+```
+
+I then released the current DHCP-assigned configuration:
+
+```text
+ipconfig /release
+```
+
+Finally, I requested an IP configuration again:
+
+```text
+ipconfig /renew
+```
+
+![Generating DHCP traffic using ipconfig](dhcp-release-renew.png)
+
+*Using `ipconfig /release` and `ipconfig /renew` to generate DHCP traffic for OSI-layer analysis.*
+
+The purpose of these commands in this lab was not primarily to learn DHCP configuration.
+
+They provided traffic that I could inspect through Packet Tracer's OSI Model view.
+
+---
+
+## Identifying the Layers Used by DHCP
+
+After generating DHCP traffic, I opened the resulting PDU and examined its OSI information.
+
+![DHCP PDU analyzed through the OSI model](dhcp-osi-analysis.png)
+
+*Examining the layers involved in DHCP communication.*
+
+This PDU involved several layers.
+
+### Layer 7 — Application
+
+Packet Tracer identified the DHCP message at Layer 7.
+
+This showed me that DHCP operates as an application-layer protocol.
+
+### Layer 4 — Transport
+
+At Layer 4, I could see that DHCP was using **UDP**.
+
+The PDU information displayed the UDP source and destination port information.
+
+### Layer 3 — Network
+
+At Layer 3, I could see the IP header containing source and destination IP addressing information.
+
+### Layer 2 — Data Link
+
+At Layer 2, the information was encapsulated inside an Ethernet frame.
+
+I could see source and destination MAC address information in the Ethernet header.
+
+### Layer 1 — Physical
+
+At Layer 1, Packet Tracer identified the physical interface used to transmit the data.
+
+---
+
+## Comparing the Traffic
+
+The different PDUs helped demonstrate that the OSI layers involved depend on the type of network communication taking place.
+
+| Traffic Observed | Layers Observed | What It Demonstrated |
+|---|---|---|
+| STP | Layer 2 and Layer 1 transmission | Some network protocols operate without using the upper OSI layers |
+| CDP | Primarily Layer 2 | Network devices can exchange information directly at the Data Link layer |
+| DHCP | Layers 7, 4, 3, 2, and 1 | Application traffic relies on multiple lower layers to travel across a network |
+
+The biggest takeaway was that I should not assume every packet uses all seven OSI layers.
+
+Instead, I can inspect the traffic and determine which layers are actually involved.
+
+---
+
+## Understanding Encapsulation
+
+Inspecting the PDUs also helped me visualize encapsulation.
+
+As information moves down the networking stack, each applicable layer adds information needed to perform its function.
+
+For the DHCP traffic I observed, I could follow the information through multiple layers:
+
+```text
+Layer 7 — DHCP
+        ↓
+Layer 4 — UDP
+        ↓
+Layer 3 — IP
+        ↓
+Layer 2 — Ethernet
+        ↓
+Layer 1 — Physical transmission
+```
+
+At the receiving device, the information can be processed back up through the appropriate layers.
+
+Seeing this inside Packet Tracer made the relationship between the layers easier to understand than simply memorizing the OSI model.
+
+---
+
+## Commands Used
+
+The commands used on PC1 were:
+
+```text
+ipconfig
+ipconfig /release
+ipconfig /renew
+```
+
+These commands were primarily used to generate DHCP traffic that I could inspect in Simulation Mode.
+
+No Cisco IOS configuration was required for this lab.
+
+---
+
+## Verification
+
+I completed the lab by:
+
+1. Entering Packet Tracer Simulation Mode
+2. Observing network-generated traffic
+3. Selecting individual events from the Simulation Panel
+4. Opening their PDU information
+5. Reviewing the OSI Model tab
+6. Identifying which layers were active
+7. Comparing the layers used by different types of traffic
+8. Generating DHCP traffic from PC1
+9. Inspecting the DHCP PDU through multiple OSI layers
+
+---
+
+## What I Learned
+
+The biggest lesson from this lab was that the OSI model represents functions that I can actually observe in network traffic.
+
+Before this lab, it was easy to think about the OSI model mainly as seven layers to memorize.
+
+Using Simulation Mode allowed me to see those layers applied to actual PDUs.
+
+### Different Traffic Uses Different Layers
+
+Not every type of network traffic uses every OSI layer.
+
+For example, the STP traffic I examined primarily demonstrated Layer 2 behavior, while DHCP involved several layers of the networking stack.
+
+### One Communication Can Involve Multiple Protocols
+
+When I examined DHCP traffic, I wasn't only seeing DHCP.
+
+I could also identify:
+
+- DHCP at Layer 7
+- UDP at Layer 4
+- IP at Layer 3
+- Ethernet at Layer 2
+- Physical transmission at Layer 1
+
+Each layer performed a different function required to move the communication across the network.
+
+### The OSI Model Helps With Traffic Analysis
+
+Instead of looking at network traffic as one large process, I can break it down by layer.
+
+I can ask:
+
+- Is the physical connection working?
+- Is the Ethernet frame being delivered?
+- Is IP addressing involved?
+- Which transport protocol is being used?
+- Which application protocol generated the traffic?
+
+This gives me a more structured way to understand network communication and will also be useful when troubleshooting network problems.
+
+---
+
+## Study Source
+
+This lab was completed as part of my CCNA studies using **Jeremy's IT Lab**.
+
+The documentation, explanations, observations, and lessons learned in this repository are written in my own words as a record of my hands-on learning.
