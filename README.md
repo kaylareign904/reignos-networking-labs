@@ -27,9 +27,9 @@ As I progress, this repository will expand with additional networking labs, trou
 
 ## 🧪 CCNA Labs
 
-My CCNA labs are documented here as I complete them.
+I document my hands-on CCNA labs as I progress through Jeremy's IT Lab Full CCNA course.
 
-Each lab may include:
+Each lab is documented in my own words and may include:
 
 - Lab objectives
 - Network topology
@@ -43,13 +43,74 @@ Each lab may include:
 - Root-cause analysis
 - Lessons learned
 
-➡️ **CCNA lab documentation coming soon.**
+### Completed Labs
+
+➡️ **[View the full CCNA Lab Index](ccna/)**
+
+---
+
+## 📈 Current Learning Progression
+
+### Lab 01 — Packet Tracer Introduction
+
+My first lab focused on becoming familiar with Cisco Packet Tracer, identifying common network devices, and working with an existing network topology.
+
+**Skills practiced:**
+
+- Packet Tracer navigation
+- Network device identification
+- End-device identification
+- Network topology recognition
+
+➡️ [View Lab 01](ccna/01-packet-tracer-introduction/)
+
+---
+
+### Lab 02 — Connecting Network Devices
+
+This lab introduced physical network media selection and required me to determine which cables and interfaces were appropriate for different connections.
+
+**Skills practiced:**
+
+- Copper straight-through cabling
+- Copper crossover cabling
+- Multimode fiber
+- Single-mode fiber
+- Distance-based media selection
+- Physical interface selection
+- Layer 1 troubleshooting
+
+During this lab, I also documented a real troubleshooting issue involving the accidental selection of an incompatible interface for a fiber connection.
+
+➡️ [View Lab 02](ccna/02-connecting-network-devices/)
+
+---
+
+### Lab 03 — Identifying OSI Model Layers
+
+This lab focused on identifying which OSI layers were involved in different types of network traffic using Cisco Packet Tracer's Simulation Mode.
+
+Simulation Mode and the `ipconfig /release` and `ipconfig /renew` commands were new to me, so I first followed the lab demonstration before working through the exercise and analyzing the traffic myself.
+
+**Skills practiced:**
+
+- Packet Tracer Simulation Mode
+- PDU inspection
+- OSI layer identification
+- Layer 2 traffic analysis
+- DHCP traffic observation
+- Encapsulation
+- `ipconfig`
+- `ipconfig /release`
+- `ipconfig /renew`
+
+➡️ [View Lab 03](ccna/03-osi-model/)
 
 ---
 
 ## 🔬 Packet Analysis
 
-Packet-analysis exercises will document my use of tools such as **Wireshark** to examine how network protocols operate in real traffic.
+As my studies progress, I will expand the portfolio with packet-analysis exercises using tools such as **Wireshark**.
 
 Topics may include:
 
@@ -60,7 +121,7 @@ Topics may include:
 - TCP
 - UDP
 
-➡️ **Packet-analysis labs coming soon.**
+These exercises will focus on understanding what is happening inside network traffic rather than simply confirming whether communication succeeds.
 
 ---
 
@@ -94,7 +155,7 @@ For each lab, I aim to answer:
 
 **What was I trying to accomplish?**
 
-**How did I configure it?**
+**How did I complete it?**
 
 **How did I verify that it worked?**
 
@@ -104,12 +165,18 @@ For each lab, I aim to answer:
 
 **What did I learn?**
 
-This approach allows the repository to demonstrate configuration knowledge as well as the troubleshooting and problem-solving process used to reach a working solution.
+When I encounter a problem during a lab, I document the issue, investigation, root cause, resolution, and what the experience taught me.
+
+This approach allows the repository to demonstrate not only networking knowledge, but also the troubleshooting and problem-solving process used to reach a working solution.
 
 ---
 
 ## 🚧 Portfolio Status
 
-This portfolio is actively being developed as I progress through my networking studies.
+This portfolio is actively being developed as I progress through my CCNA studies.
+
+### Current Lab Progress
+
+**CCNA labs completed**
 
 New labs, configurations, diagrams, troubleshooting exercises, and networking projects will be added as they are completed.
