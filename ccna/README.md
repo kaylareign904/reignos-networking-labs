@@ -33,6 +33,7 @@ Labs may use:
 | # | Lab | Topic | Status |
 |---|---|---|---|
 | 01 | [Packet Tracer Introduction](01-packet-tracer-introduction/) | Packet Tracer Fundamentals | ✅ Complete |
+| 02 | [Connecting Network Devices](02-connecting-network-devices/) | Network Cabling & Media | ✅ Complete |
 ---
 
 > **Note:** Course materials are not reproduced in this repository. Lab documentation contains my own configurations, observations, troubleshooting notes, and explanations created as part of my studies.
