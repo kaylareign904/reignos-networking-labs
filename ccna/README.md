@@ -34,6 +34,7 @@ Labs may use:
 |---|---|---|---|
 | 01 | [Packet Tracer Introduction](01-packet-tracer-introduction/) | Packet Tracer Fundamentals | ✅ Complete |
 | 02 | [Connecting Network Devices](02-connecting-network-devices/) | Network Cabling & Media | ✅ Complete |
+| 03 | [Identifying OSI Model Layers](03-osi-model/) | OSI Model & PDU Analysis | ✅ Complete |
 ---
 
 > **Note:** Course materials are not reproduced in this repository. Lab documentation contains my own configurations, observations, troubleshooting notes, and explanations created as part of my studies.
