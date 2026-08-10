@@ -25,6 +25,20 @@ By completing this lab, I practiced:
 
 ---
 
+## Lab Approach
+
+Before completing this lab on my own, I watched Jeremy's lab demonstration because two parts of the exercise were new to me:
+
+- I had not previously used Packet Tracer's **Simulation Mode**
+- I was not familiar with the `ipconfig /release` and `ipconfig /renew` commands
+
+Watching the demonstration first helped me understand how to access and navigate Simulation Mode and how to generate DHCP traffic for analysis.
+
+I then worked through the lab myself and used the PDU information to identify which OSI layers were involved in the different types of traffic I observed.
+
+This lab was especially useful because it introduced me to a Packet Tracer feature and command-line tools that I had not used before.
+
+---
 ## Lab Environment
 
 | Component | Details |
