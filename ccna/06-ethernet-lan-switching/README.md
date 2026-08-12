@@ -1,4 +1,4 @@
-# Lab 06 — Ethernet LAN Switching
+# Lab 05 — Ethernet LAN Switching
 
 ## Overview
 
