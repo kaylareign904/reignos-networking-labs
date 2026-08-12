@@ -193,7 +193,7 @@ I then configured IPv4 addressing on each of R1's three GigabitEthernet interfac
 ### G0/0 — Network 15.0.0.0/8
 
 ```text
-interface gigabitethernet0/0
+interface g0/0
 ip address 15.255.255.254 255.0.0.0
 no shutdown
 description ## to SW1 ##
@@ -202,7 +202,7 @@ description ## to SW1 ##
 ### G0/1 — Network 182.98.0.0/16
 
 ```text
-interface gigabitethernet0/1
+interface g0/1
 ip address 182.98.255.254 255.255.0.0
 no shutdown
 description ## to SW2 ##
@@ -211,7 +211,7 @@ description ## to SW2 ##
 ### G0/2 — Network 201.191.20.0/24
 
 ```text
-interface gigabitethernet0/2
+interface g0/2
 ip address 201.191.20.254 255.255.255.0
 no shutdown
 description ## to SW3 ##
