@@ -39,6 +39,7 @@ Labs may use:
 | 03 | [Identifying OSI Model Layers](03-osi-model/) | OSI Model & PDU Analysis | ✅ Complete |
 | 04 | [Basic Device Security](04-basic-device-security/) | Cisco IOS & Device Security | ✅ Complete |
 | 05 | [Ethernet LAN Switching](05-ethernet-lan-switching/) | ARP, MAC Learning & Ethernet Switching | ✅ Complete |
+| 06 | [IPv4 Addresses](06-ipv4-addresses/) | IPv4 Addressing & Router Interfaces | ✅ Complete |
 ---
 
 > **Note:** Course materials are not reproduced in this repository. Lab documentation contains my own configurations, observations, troubleshooting notes, and explanations created as part of my studies.
