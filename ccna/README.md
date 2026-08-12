@@ -38,7 +38,7 @@ Labs may use:
 | 02 | [Connecting Network Devices](02-connecting-network-devices/) | Network Cabling & Media | ✅ Complete |
 | 03 | [Identifying OSI Model Layers](03-osi-model/) | OSI Model & PDU Analysis | ✅ Complete |
 | 04 | [Basic Device Security](04-basic-device-security/) | Cisco IOS & Device Security | ✅ Complete |
-| 05 | [Ethernet LAN Switching](06-ethernet-lan-switching/) | ARP, MAC Learning & Ethernet Switching | ✅ Complete |
+| 05 | [Ethernet LAN Switching](05-ethernet-lan-switching/) | ARP, MAC Learning & Ethernet Switching | ✅ Complete |
 ---
 
 > **Note:** Course materials are not reproduced in this repository. Lab documentation contains my own configurations, observations, troubleshooting notes, and explanations created as part of my studies.
