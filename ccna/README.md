@@ -40,6 +40,7 @@ Labs may use:
 | 04 | [Basic Device Security](04-basic-device-security/) | Cisco IOS & Device Security | ✅ Complete |
 | 05 | [Ethernet LAN Switching](05-ethernet-lan-switching/) | ARP, MAC Learning & Ethernet Switching | ✅ Complete |
 | 06 | [IPv4 Addresses](06-ipv4-addresses/) | IPv4 Addressing & Router Interfaces | ✅ Complete |
+| 07 | [Interface Configuration](07-interface-configuration/) | Interface Configuration & Management | ✅ Complete |
 ---
 
 > **Note:** Course materials are not reproduced in this repository. Lab documentation contains my own configurations, observations, troubleshooting notes, and explanations created as part of my studies.
