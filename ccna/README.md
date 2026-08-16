@@ -42,6 +42,7 @@ Labs may use:
 | 06 | [IPv4 Addresses](06-ipv4-addresses/) | IPv4 Addressing & Router Interfaces | ✅ Complete |
 | 07 | [Interface Configuration](07-interface-configuration/) | Interface Configuration & Management | ✅ Complete |
 | 08 | [Configuring Static Routes](08-configuring-static-routes/) | IPv4 Static Routing | ✅ Complete |
+| 09 | [Troubleshooting Static Routes](09-troubleshooting-static-routes/) | Static Route Troubleshooting | ✅ Complete |
 ---
 
 > **Note:** Course materials are not reproduced in this repository. Lab documentation contains my own configurations, observations, troubleshooting notes, and explanations created as part of my studies.
