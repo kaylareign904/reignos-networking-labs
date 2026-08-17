@@ -43,6 +43,7 @@ Labs may use:
 | 07 | [Interface Configuration](07-interface-configuration/) | Interface Configuration & Management | ✅ Complete |
 | 08 | [Configuring Static Routes](08-configuring-static-routes/) | IPv4 Static Routing | ✅ Complete |
 | 09 | [Troubleshooting Static Routes](09-troubleshooting-static-routes/) | Static Route Troubleshooting | ✅ Complete |
+| 10 | [Life of a Packet](10-life-of-a-packet/) | Packet Flow & MAC Address Changes | ✅ Complete |
 ---
 
 > **Note:** Course materials are not reproduced in this repository. Lab documentation contains my own configurations, observations, troubleshooting notes, and explanations created as part of my studies.
