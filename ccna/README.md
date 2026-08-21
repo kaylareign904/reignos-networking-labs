@@ -45,6 +45,7 @@ Labs may use:
 | 09 | [Troubleshooting Static Routes](09-troubleshooting-static-routes/) | Static Route Troubleshooting | ✅ Complete |
 | 10 | [Life of a Packet](10-life-of-a-packet/) | Packet Flow & MAC Address Changes | ✅ Complete |
 | 11 | [VLSM](11-vlsm/) | VLSM, Subnetting & Static Routing | ✅ Complete |
+| 12 | [VLANs (Part 1)](12-vlans-part-1/) | VLANs, Access Ports & Broadcast Domains | ✅ Complete |
 ---
 
 > **Note:** Course materials are not reproduced in this repository. Lab documentation contains my own configurations, observations, troubleshooting notes, and explanations created as part of my studies.
